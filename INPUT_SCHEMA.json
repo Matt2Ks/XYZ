@@ -8,5 +8,6 @@
       "type": "string",
       "title": "Password"
     }
-  }
+  },
+  "required": ["email", "password"]
 }
