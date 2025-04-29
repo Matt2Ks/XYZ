@@ -1,13 +1,28 @@
 {
+  "type": "object",
   "properties": {
     "email": {
       "type": "string",
-      "title": "Email Address"
+      "format": "email",
+      "title": "Email Address",
+      "description": "The email address used for login"
     },
     "password": {
       "type": "string",
-      "title": "Password"
+      "title": "Password",
+      "description": "The password used for login"
+    },
+    "username": {
+      "type": "string",
+      "title": "Username",
+      "description": "The username for your account (optional)"
+    },
+    "rememberMe": {
+      "type": "boolean",
+      "title": "Remember Me",
+      "description": "Option to stay logged in"
     }
   },
-  "required": ["email", "password"]
+  "required": ["email", "password"],
+  "additionalProperties": false
 }
