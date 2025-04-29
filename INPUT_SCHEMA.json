@@ -6,13 +6,13 @@
       "type": "string",
       "title": "Email",
       "description": "Enter your email address",
-      "editor": "textfield"  // Dodano wymagany editor
+      "editor": "textfield"
     },
     "password": {
       "type": "string",
       "title": "Password",
       "description": "Enter your password",
-      "editor": "password"  // Dodano wymagany editor dla hasła
+      "editor": "password"
     }
   },
   "required": ["email", "password"],
