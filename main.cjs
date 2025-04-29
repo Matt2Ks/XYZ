@@ -1,5 +1,5 @@
 const { Actor } = require('apify');
-const someModule = require('some-module'); // Przykładowy dodatkowy import
+
 
 Actor.main(async () => {
     // Przykładowa logika
