@@ -5,12 +5,14 @@
     "email": {
       "type": "string",
       "title": "Email",
-      "description": "Enter your email address"
+      "description": "Enter your email address",
+      "editor": "textfield"  // Dodano wymagany editor
     },
     "password": {
       "type": "string",
       "title": "Password",
-      "description": "Enter your password"
+      "description": "Enter your password",
+      "editor": "password"  // Dodano wymagany editor dla hasła
     }
   },
   "required": ["email", "password"],
