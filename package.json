@@ -2,12 +2,12 @@
   "name": "login-singlekey-id",
   "version": "1.0.0",
   "description": "Logowanie do singlekey-id.com",
-  "main": "main.js",
+  "main": "main.cjs",  // Zmieniono z 'main.js' na 'main.cjs'
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.cjs"  // Zmieniono z 'main.js' na 'main.cjs'
   },
   "dependencies": {
     "apify": "^3.3.2"
   },
-  "type": "module"
+  "type": "module"  // Pozostawiamy "module", ponieważ nie wpływa to na pliki .cjs
 }
