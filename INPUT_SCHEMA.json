@@ -12,7 +12,7 @@
       "type": "string",
       "title": "Password",
       "description": "Enter your password",
-      "editor": "textfield"  // Zmieniono z "password" na "textfield"
+      "editor": "textfield"
     }
   },
   "required": ["email", "password"],
