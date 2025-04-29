@@ -3,26 +3,14 @@
   "properties": {
     "email": {
       "type": "string",
-      "format": "email",
-      "title": "Email Address",
-      "description": "The email address used for login"
+      "title": "Email",
+      "description": "Email address for login"
     },
     "password": {
       "type": "string",
       "title": "Password",
-      "description": "The password used for login"
-    },
-    "username": {
-      "type": "string",
-      "title": "Username",
-      "description": "The username for your account (optional)"
-    },
-    "rememberMe": {
-      "type": "boolean",
-      "title": "Remember Me",
-      "description": "Option to stay logged in"
+      "description": "Password for login"
     }
   },
-  "required": ["email", "password"],
-  "additionalProperties": false
+  "required": ["email", "password"]
 }
