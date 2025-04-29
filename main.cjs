@@ -6,7 +6,7 @@ Actor.main(async () => {
 
     try {
         // Załóżmy, że używasz zewnętrznego API do logowania
-        const response = await axios.post('https://some-api.com/login', {
+        const response = await axios.post('https://singlekey-id.com/pl-pl/home', {
             username: 'user', // Zastąp swoimi danymi
             password: 'password' // Zastąp swoimi danymi
         });
